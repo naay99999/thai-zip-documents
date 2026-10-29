@@ -49,4 +49,4 @@ Fumadocs on Next.js. The UI package is `@fumadocs/base-ui` (the Base UI build of
 
 ## CI and deploy
 
-`.github/workflows/ci.yml` runs `npm ci --ignore-scripts`, `npm test`, and `npm run build` on pushes to `main` and all PRs. Vercel deploys from this repo's root with default settings. This repo isn't published to npm and has no release process; land changes through a PR.
+`.github/workflows/ci.yml` runs `npm ci --ignore-scripts`, `npm test`, and `npm run build` on pushes to `main` and all PRs. Vercel project `thai-zip` (team naays99999-projects) is connected to this repo: pushes to `main` deploy to production at https://thai-zip.vercel.app, other branches get preview deployments. `vercel.json` pins the Next.js framework preset (a CLI-created project otherwise defaults to "Other"). This repo isn't published to npm and has no release process; land changes through a PR.

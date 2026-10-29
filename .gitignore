@@ -22,3 +22,7 @@ npm-debug.log*
 
 # Per-developer agent config (not shared)
 .claude/
+
+# Vercel CLI link and pulled env
+.vercel
+.env*.local
